@@ -1,6 +1,11 @@
-//Aluno: Carlos Pantoja
-//Matricula: 26149852
-//Turma: Ciência da Computação
+// Aluno: Carlos Pantoja
+// Turma: Ciência da Computação
+
+// Problema: Escreva um programa que, para uma conta bancária, leia o seu número, o saldo, o tipo de operação a ser 
+// realizada (1 para depósito ou 2 para retirada) e o valor da operação. Após, determine e mostre o novo saldo. 
+// Considere que o cliente tem R$ 2000,00 de cheque especial. Se o novo saldo ficar negativo, 
+// então deve-se descontar do cheque especial, também deve-se exibir uma mensagem informando que o cliente 
+//estourou seu saldo, exibir que está fazendo uso do cheque especial, o quanto foi usado e o novo saldo.
 
 #include <stdio.h>
 #include <stdlib.h>

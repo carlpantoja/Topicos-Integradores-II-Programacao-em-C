@@ -1,6 +1,9 @@
 // Aluno: Carlos Pantoja
-// Matricula: 26149852
 // Turma: Ciência da Computação
+
+// Problema: Faça um algoritmo que calcule a média de salários de uma empresa, pedindo ao usuário a quantidade de 
+// funcionários, número de matrícula e o salário de cada funcionário e devolvendo a média, a matrícula e o 
+// valor do salário mais alto assim como do mais baixo.
 
 #include <stdio.h>
 #include <stdlib.h>

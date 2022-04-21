@@ -1,6 +1,16 @@
 // Aluno: Carlos Pantoja
-// Matricula: 26149852
 // Turma: Ciência da Computação
+
+// Problema: O programa de uma loja de móveis mostra o seguinte menu na tela de vendas:
+// Venda a Vista - desconto de 10%
+// Venda a Prazo 30 dias - desconto de 5%
+// Venda a Prazo 60 dias - mesmo preço
+// Venda a Prazo 90 dias - acréscimo de 5%
+// Venda com cartão de débito - desconto de 8%
+// Venda com cartão de crédito - desconto de 7%
+// Defina 5 (cinco) tipos de produtos e seus respectivos códigos e preços. Faça um programa que receba o 
+// código do produto, escolha a condição de pagamento no menu e mostre o total da venda final. Permita 
+// com que o usuário possa escolher mais de um produto e que isso seja considerado no total da venda final.
 
 #include <stdio.h>
 #include <stdlib.h>

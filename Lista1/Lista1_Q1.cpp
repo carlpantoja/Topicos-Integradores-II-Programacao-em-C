@@ -1,6 +1,14 @@
-//Aluno: Carlos Pantoja
-//Matricula: 26149852
-//Turma: Ciência da Computação
+// Aluno: Carlos Pantoja
+// Turma: Ciência da Computação
+
+// Problema: Deu a louca na empresa SportChibé e ela resolveu oferecer descontos em seus produtos considerando a 
+// tabela abaixo. Seu papel é fazer um programa que receba o preço atual de um determinado produto ao qual o cliente 
+// deseja comprar, calcule e exiba o valor do desconto oferecido bem como o novo preço.
+// Preço atual % desconto
+// Abaixo de R$ 90,00 10
+// Entre R$ 90,00 e R$ 150,00 15
+// Acima de R$ 150,00 25
+
 
 #include <stdio.h>
 #include <stdlib.h>
