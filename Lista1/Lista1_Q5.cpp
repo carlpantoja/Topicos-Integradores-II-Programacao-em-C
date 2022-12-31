@@ -1,10 +1,10 @@
-// Aluno: Carlos Pantoja
-// Turma: Ciência da Computação
+/*
+Aluno: Carlos Pantoja
+Turma: Ciência da Computação
 
-// Problema:Uma empresa produz três tipos de rações para cachorro: flex, premium e gold. Têm-se os preços unitários 
-// de cada saco com 20 Kg e sabe-se que sobre estes preços incidem descontos de 10% para flex, 20% para premium e 
-// 30% para gold. Escreva um programa que calcule o valor total da compra de um cliente. Deve ser mostrada a 
-// quantidade de cada tipo de ração que ele comprou, o total de desconto e o total a pagar pela compra.
+Problema: Uma empresa produz três tipos de rações para cachorro: flex, premium e gold.
+Têm-se os preços unitários de cada saco com 20 Kg e sabe-se que sobre estes preços incidem descontos de 10% para flex, 20% para premium e 30% para gold. 
+Escreva um programa que calcule o valor total da compra de um cliente. Deve ser mostrada a quantidade de cada tipo de ração que ele comprou, o total de desconto e o total a pagar pela compra. */
 
 #include <stdio.h>
 #include <stdlib.h>

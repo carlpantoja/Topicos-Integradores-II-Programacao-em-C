@@ -1,10 +1,11 @@
-// Aluno: Carlos Pantoja
-// Turma: Ciência da Computação
+/*
+Aluno: Carlos Pantoja
+Turma: Ciência da Computação
 
-// Problema: Uma loja está levantando o valor total de todas as mercadorias em estoque. Escreva um algoritmo
-// que permita a entrada das seguintes informações: a) o valor de cada mercadoria; b) se existe ou não mais 
-// mercadorias no estoque: “mais mercadorias (s/n)?” Ao final imprimir o valor total em estoque e a média de 
-// valor das mercadorias.
+Problema: Uma loja está levantando o valor total de todas as mercadorias em estoque. Escreva um algoritmo que permita a entrada das seguintes informações: 
+    a) o valor de cada mercadoria
+    b) se existe ou não mais mercadorias no estoque: “mais mercadorias (s/n)?” 
+Ao final imprimir o valor total em estoque e a média de valor das mercadorias. */
 
 #include <stdio.h>
 #include <stdlib.h>
