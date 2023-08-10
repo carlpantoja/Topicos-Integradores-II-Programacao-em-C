@@ -1,18 +1,3 @@
-/*
-Aluno: Carlos Pantoja
-Turma: Ciência da Computação
-
-Problema: O programa de uma loja de móveis mostra o seguinte menu na tela de vendas:
-    Venda a Vista - desconto de 10%
-    Venda a Prazo 30 dias - desconto de 5%
-    Venda a Prazo 60 dias - mesmo preço
-    Venda a Prazo 90 dias - acréscimo de 5%
-    Venda com cartão de débito - desconto de 8%
-    Venda com cartão de crédito - desconto de 7%
-Defina 5 (cinco) tipos de produtos e seus respectivos códigos e preços. 
-Faça um programa que receba o código do produto, escolha a condição de pagamento no menu e mostre o total da venda final. 
-Permita com que o usuário possa escolher mais de um produto e que isso seja considerado no total da venda final. */
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -21,8 +6,7 @@ int main(){
     int codigo, cond;
     float desconto, val_total;
 
-    do
-    {
+    do {
         printf("------------------Lojinha------------------\n");
         printf("\n");
         printf("Digite o codigo do produto que deseja escolher:\n");
@@ -34,7 +18,7 @@ int main(){
         printf("104             Guarda Roupa        R$ 499,50\n");
         scanf("%d", &codigo);
 
-        switch (codigo){
+        switch (codigo) {
         case 100:
             val_total = val_total + 150.0;
             break;
@@ -59,7 +43,7 @@ int main(){
         printf("\n");
         printf("Deseja adicionar mais um produto (1-sim/2-nao)?\n");
         scanf("%d", &op);
-        if (op == 2){
+        if (op == 2) {
             printf("\n");
             printf("Escolha uma condicao de pagamento:\n");
             printf("1 - Venda a Vista - desconto de 10%%\n");
@@ -69,7 +53,7 @@ int main(){
             printf("5 - Venda com cartao de debito - desconto de 8%%\n");
             printf("6 - Venda com cartao de credito - desconto de 7%%\n");
             scanf("%d", &cond);
-            switch (cond){
+            switch (cond) {
             case 1:
                 printf("\n");
                 printf("Voce tem um desconto de 10%%\n");
@@ -107,13 +91,13 @@ int main(){
                 break;
             default:
                 printf("\n");
-                printf("Opcao de condicao invalida!\n");
+                printf("Opcao invalida!\n");
                 break;
             }
             printf("\n");
             printf("O total a ser pago e: R$: %.2f\n", val_total);
             break;
-        }else if (op < 1 || op > 2){
+        } else if (op < 1 || op > 2) {
             printf("\n");
             printf("Opcao invalida!\n");
             break;
@@ -121,6 +105,5 @@ int main(){
         
     } while (op == 1);
     
-
     system("pause");
 }

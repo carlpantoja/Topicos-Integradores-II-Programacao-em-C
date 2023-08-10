@@ -1,11 +1,3 @@
-/*
-Aluno: Carlos Pantoja
-Turma: Ciência da Computação
-
-Problema: A empresa Hipotheticus paga R$10,00 por hora normal trabalhada, e R$15,00 por hora extra.
-Ela contratou você para desenvolver um programa que receba uma quantidade N de funcionários, calcule e imprima o salário bruto e o salário líquido de cada um. 
-Considere que o salário líquido é igual ao salário bruto descontando-se 10% de impostos. */
-
 #include <stdio.h>
 #include <stdlib.h>
 

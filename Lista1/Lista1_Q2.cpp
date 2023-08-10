@@ -1,10 +1,3 @@
-/*
-Aluno: Carlos Pantoja
-Turma: Ciência da Computação
-
-Problema: Uma revenda de cosméticos paga aos seus funcionários um salário base de 3 salários mínimos, além disso paga uma comissão de R$ 10,00 por produtos vendidos e mais 3% do valor das vendas.
-Então, faça um programa que etermine o salário final de um vendedor. */
-
 #include <stdio.h>
 #include <stdlib.h>
 

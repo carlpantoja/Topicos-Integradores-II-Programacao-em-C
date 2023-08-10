@@ -1,9 +1,3 @@
-/*
-Aluno: Carlos Pantoja
-Turma: Ciência da Computação
-
-Problema: Faça um algoritmo que calcule a média de salários de uma empresa, pedindo ao usuário a quantidade de funcionários, número de matrícula e o salário de cada funcionário e devolvendo a média, a matrícula e o valor do salário mais alto assim como do mais baixo. */
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -23,14 +17,13 @@ int main(){
         printf("E tambem informe sua matricula: ");
         scanf("%d", &matricula[i]);
 
-        if (i == 0){
+        if (i == 0) {
            maior = salario[i];
            menor = salario[i];
-        } else if (salario[i] > maior){
+        } else if (salario[i] > maior) {
             maior = salario[i];
         } else {
-            if (salario[i] < menor)
-            {
+            if (salario[i] < menor) {
                 menor = salario[i];
             }
         }       

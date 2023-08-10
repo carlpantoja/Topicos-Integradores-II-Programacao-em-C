@@ -1,0 +1,51 @@
+Aluno: Carlos Pantoja
+Turma: Ciência da Computação
+
+Lista 1:
+
+Questão 1: Deu a louca na empresa SportChibé e ela resolveu oferecer descontos em seus produtos considerando a tabela abaixo. 
+Seu papel é fazer um programa que receba o preço atual de um determinado produto ao qual o cliente deseja comprar, calcule e exiba o valor do desconto oferecido bem como o novo preço.
+        Preço atual             % desconto
+    Abaixo de R$ 90,00              10%
+    Entre R$ 90,00 e R$ 150,00      15%
+    Acima de R$ 150,00              25%
+
+Questão 2: Uma revenda de cosméticos paga aos seus funcionários um salário base de 3 salários mínimos, além disso paga uma comissão de R$ 10,00 por produtos vendidos e mais 3% do valor das vendas.
+Então, faça um programa que etermine o salário final de um vendedor.
+
+Questão 3: Três amigos foram curtir um morma para relaxar depois de uma semana cruel de provas.
+Na saída, João, Rodrigo e Ricardo resolveram dividir a conta. 
+Seu papel é fazer um programa que receba o total a ser pago e exibir o quanto cada um deve pagar, mas considerando que João e Rodrigo não paguem os centavos.
+Por exemplo, se o total for R$ 100,50 então João paga R$ 33,00, Rodrigo paga R$ 33,00 e Ricardo paga R$ 33,50.
+
+Questão 4: Escreva um programa que, para uma conta bancária, leia o seu número, o saldo, o tipo de operação a ser realizada (1 para depósito ou 2 para retirada) e o valor da operação.
+Após, determine e mostre o novo saldo. Considere que o cliente tem R$ 2000,00 de cheque especial. 
+Se o novo saldo ficar negativo, então deve-se descontar do cheque especial, também deve-se exibir uma mensagem informando que o cliente estourou seu saldo, exibir que está fazendo uso do cheque especial, o quanto foi usado e o novo saldo.
+
+Questão 5: Uma empresa produz três tipos de rações para cachorro: flex, premium e gold.
+Têm-se os preços unitários de cada saco com 20 Kg e sabe-se que sobre estes preços incidem descontos de 10% para flex, 20% para premium e 30% para gold. 
+Escreva um programa que calcule o valor total da compra de um cliente. Deve ser mostrada a quantidade de cada tipo de ração que ele comprou, o total de desconto e o total a pagar pela compra.
+
+Lista 2:
+
+Questão 1: A empresa Hipotheticus paga R$10,00 por hora normal trabalhada, e R$15,00 por hora extra.
+Ela contratou você para desenvolver um programa que receba uma quantidade N de funcionários, calcule e imprima o salário bruto e o salário líquido de cada um. 
+Considere que o salário líquido é igual ao salário bruto descontando-se 10% de impostos.
+
+Questão 2: Uma loja está levantando o valor total de todas as mercadorias em estoque. Escreva um algoritmo que permita a entrada das seguintes informações: 
+    a) o valor de cada mercadoria
+    b) se existe ou não mais mercadorias no estoque: “mais mercadorias (s/n)?” 
+Ao final imprimir o valor total em estoque e a média de valor das mercadorias.
+
+Questão 3: O programa de uma loja de móveis mostra o seguinte menu na tela de vendas:
+    Venda a Vista               -   desconto de 10%
+    Venda a Prazo 30 dias       -   desconto de 5%
+    Venda a Prazo 60 dias       -   mesmo preço
+    Venda a Prazo 90 dias       -   acréscimo de 5%
+    Venda com cartão de débito  -   desconto de 8%
+    Venda com cartão de crédito -   desconto de 7%
+Defina 5 (cinco) tipos de produtos e seus respectivos códigos e preços. 
+Faça um programa que receba o código do produto, escolha a condição de pagamento no menu e mostre o total da venda final. 
+Permita com que o usuário possa escolher mais de um produto e que isso seja considerado no total da venda final.
+
+Questão 4: Faça um algoritmo que calcule a média de salários de uma empresa, pedindo ao usuário a quantidade de funcionários, número de matrícula e o salário de cada funcionário e devolvendo a média, a matrícula e o valor do salário mais alto assim como do mais baixo.

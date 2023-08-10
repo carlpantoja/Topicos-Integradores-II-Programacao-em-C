@@ -1,12 +1,3 @@
-/*
-Aluno: Carlos Pantoja
-Turma: Ciência da Computação
-
-Problema: Três amigos foram curtir um morma para relaxar depois de uma semana cruel de provas.
-Na saída, João, Rodrigo e Ricardo resolveram dividir a conta. 
-Seu papel é fazer um programa que receba o total a ser pago e exibir o quanto cada um deve pagar, mas considerando que João e Rodrigo não paguem os centavos.
-Por exemplo, se o total for R$ 100,50 então João paga R$ 33,00, Rodrigo paga R$ 33,00 e Ricardo paga R$ 33,50. */
-
 #include <stdio.h>
 #include <stdlib.h>
 
